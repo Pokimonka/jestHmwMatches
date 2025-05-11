@@ -1,5 +1,3 @@
 export function SortCharacters(characterList) {
-    return characterList.sort((lft, rht) => {
-        return rht["health"] - lft["health"];
-    })
+    return characterList.sort((lft, rht) => rht.health - lft.health);
 }
